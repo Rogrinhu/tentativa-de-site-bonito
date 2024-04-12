@@ -1,0 +1,44 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "E-commerce Duvidoso",
+  "orientation": "any",
+  "scope": "/https://ecommerceduvidoso.netlify.app/generic",
+  "short_name": "E-commerce Duvidoso",
+  "start_url": "https://ecommerceduvidoso.netlify.app",
+  "theme_color": "#ffffff",
+  "lang": "pt",
+  "id": "e-commerceduvidoso",
+  "description": "Aqui você monta o computador dos seus sonhos com valores acessíveis e peças de procedência duvidosa.",
+  "categories": [
+    "shopping",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "HTML/site_codding_mobile/assets/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "HTML/site_codding_mobile/assets/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "HTML/site_codding_mobile/assets/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "HTML/site_codding_mobile/assets/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
