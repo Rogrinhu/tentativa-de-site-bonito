@@ -34,6 +34,7 @@
 							<li class="active"><a href="index.html">Hardware</a></li>
 							<li><a href="generic.html">Periféricos</a></li>
 							<li><a href="elements.html">Elementos de Referência</a></li>
+							
 						</ul>
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -57,7 +58,7 @@
 								</header>
 								<a href="#" class="image main"><img src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/nvidia-encoder.jpg" alt="" /></a>
 								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
+									<li><a href="#" class="button large">Sobre Nós</a></li>
 								</ul>
 							</article>
 
@@ -173,14 +174,39 @@
 									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
 									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								
+						</section>
+							
+									
+									<section class="split contact">
+									<section class="alt">
+									<h3>Localização</h3>
+									<button onclick="getLocation()">Revele suas  Coordenadas!</button> 
+
+<p id="demo"></p>
+
+<script>
+const x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
 								</ul>
 							</section>
-						</section>
 					</footer>
 
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
 					</div>
 
 			</div>
